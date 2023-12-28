@@ -225,11 +225,11 @@ footer p{
     
     .container7bg {
     background-size: 430px 400px;
-    height: 60vh;
+    height: 50vh;
 }
 
 #container7 {
-    height: 45vh;
+    height: 50vh;
 }
 
 #container7 h1,
@@ -257,27 +257,10 @@ footer p{
     #container5,
     #container6,
     #container7,
+    #presale,
     footer{
         width: 113%;
 }
-
-
     
-    .container7bg {
-    background-size: 430px 400px;
-    height: 60vh;
-}
 
-#container7 {
-    height: 45vh;
-}
-
-#container7 h1,
-#container7 h6{
-    text-align: center;
-    padding: 20px;
-}
-    #container7 h6{
-        font-size: 20px;
-    }
 }
