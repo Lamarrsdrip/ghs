@@ -1,0 +1,283 @@
+#header img{
+    width: 4%;
+    padding: 5px;
+}
+
+.container1bg {
+    background-image: url(images/e7a33a0483b49379869a93bb7ed053f6.gif);
+    background-size: cover;
+    height: 100vh;
+}
+
+#container1 {
+    background: rgba(0,0,0,0.9);
+    height: 100vh;
+    color: white;
+}
+
+#container1 h1{
+    text-align: center; 
+    padding-top: 300px;
+    font-size: 80px;
+}
+#container1 p{
+    text-align: center;
+    font-size: 40px;
+}
+
+#container2{
+    padding: 80px;
+    background:#ccc;
+}
+
+#container2 img{
+    width: 550px;
+    height: 400px;
+    padding-left: 30px;
+}
+
+#container2 h1{
+    padding-top: 30px;
+}
+
+#container2 p{
+    font-size: 22px;
+}
+
+#container3{
+    padding: 80px;
+    background: #1b1b1b;
+    color: white;
+}
+
+#container3 img{
+    width: 550px;
+    height: 400px;
+    padding-right: 30px;
+}
+
+#container3 h1{
+    padding-top: 30px;
+}
+
+#container3 p{
+    font-size: 22px;
+}
+
+#container4{
+    padding: 80px;
+    background: #ccc;
+}
+
+#container4 img{
+    width: 550px;
+    height: 400px;
+    padding-left: 30px;
+}
+
+#container4 h1{
+    padding-top: 30px;
+}
+
+#container4 p{
+    font-size: 22px;
+}
+
+#container5{
+    padding: 80px;
+    background: #1b1b1b;
+    color: white;
+}
+
+#container5 img{
+    width: 550px;
+    height: 400px;
+    padding-right: 30px;
+}
+
+#container5 h1{
+    padding-top: 30px;
+}
+
+#container5 p{
+    font-size: 22px;
+}
+
+#container5 li{
+    font-size: 19px;
+}
+
+#container6{
+    padding: 80px;
+    background: #ccc;
+}
+
+#container6 img{
+    width: 550px;
+    height: 400px;
+    padding-left: 30px;
+}
+
+#container6 h1{
+    padding-top: 30px;
+}
+
+#container6 p{
+    font-size: 22px;
+}
+
+.container7bg {
+    background-image: url(images/e7a33a0483b49379869a93bb7ed053f6.gif);
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+    height: 60vh;
+}
+
+#container7 {
+    background: rgba(0,0,0,0.9);
+    padding: 70px;
+    height: 60vh;
+    color: white;
+}
+
+#container7 h1,
+#container7 h6{
+    text-align: center;
+}
+
+
+
+.ikons{
+    text-align: center; 
+}
+
+.ikons a{
+    font-size: 32px;
+    color: white;
+}
+
+.ikons a:hover{
+    color: #ccc;
+    transition: 0.3s;
+}
+
+footer{
+    background: #cccccc;
+    text-align: center;
+    padding: 7px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #header img{
+    width: 15%;
+}
+    #header{
+        padding: 20px;
+    }
+    #header a{
+        font-size: 26px;
+    }
+    
+    .container1bg {
+    background-repeat: no-repeat;
+    background-size: 450px 500px;
+}
+    #container1 h1{
+    color: #ccc;
+    font-size: 70px;
+}
+    #container1 p{
+        font-size: 27px;
+    }
+    
+    #container2 img,
+    #container4 img,
+    #container6 img{
+    width: 400px;
+    height: 300px;
+    margin-left: -88px;
+}
+    #container2 h1,
+    #container3 h1,
+    #container4 h1,
+    #container5 h1,
+    #container6 h1{
+        margin-left: -30px;
+    }
+    #container2 p,
+    #container3 p,
+    #container4 p,
+    #container5 p,
+    #container6 p{
+        width: 120%;
+        margin-left: -30px;
+    }
+    #container3 img,
+    #container5 img{
+        width: 400px;
+        height: 300px;
+        margin-left: -58px;
+    }
+    
+    .container7bg {
+    background-size: 430px 400px;
+    height: 60vh;
+}
+
+#container7 {
+    height: 45vh;
+}
+
+#container7 h1,
+#container7 h6{
+    text-align: center;
+    padding: 20px;
+}
+    #container7 h6{
+        font-size: 20px;
+    }
+    
+    footer{
+    
+}
+}
+
+@media only screen and (max-width: 390px) {
+   .container1bg {
+    background-size: 450px 500px;
+}
+    #container1,
+    #container2,
+    #container3,
+    #container4,
+    #container5,
+    #container6,
+    #container7,
+    footer{
+        width: 113%;
+}
+
+
+    
+    .container7bg {
+    background-size: 430px 400px;
+    height: 60vh;
+}
+
+#container7 {
+    height: 45vh;
+}
+
+#container7 h1,
+#container7 h6{
+    text-align: center;
+    padding: 20px;
+}
+    #container7 h6{
+        font-size: 20px;
+    }
+}
