@@ -225,11 +225,11 @@ footer p{
     
     .container7bg {
     background-size: 430px 400px;
-    height: 50vh;
+    height: 55vh;
 }
 
 #container7 {
-    height: 50vh;
+    height: 55vh;
 }
 
 #container7 h1,
@@ -241,8 +241,8 @@ footer p{
         font-size: 20px;
     }
     
-    footer{
-    
+    footer p{
+    font-size: 13px;
 }
 }
 
@@ -261,6 +261,5 @@ footer p{
     footer{
         width: 113%;
 }
-    
 
 }
